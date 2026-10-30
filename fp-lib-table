@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "hx6")(type "KiCad")(uri "${KIPRJMOD}/hx6.pretty")(options "")(descr "HX-6 custom footprints"))
+)

@@ -1,0 +1,26 @@
+# KiCad backups and temp files
+*-backups/
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*.lck
+~*.lck
+_autosave-*
+fp-info-cache
+*.kicad_prl
+
+# Autorouter scratch files
+*.dsn
+*.ses
+*.rules
+
+# Unzipped Gerber folders (the zip in fab/ is what gets committed)
+fab/gerbers/
+gerbers/
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store

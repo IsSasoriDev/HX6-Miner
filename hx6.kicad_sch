@@ -1,0 +1,125 @@
+(kicad_sch
+  (version 20230121)
+  (generator eeschema)
+  (uuid "4ba54009-1f29-56ee-8ded-631d38240141")
+  (paper "A3")
+  (title_block
+    (title "HX-6 6x BM1370 miner")
+    (date "2026-10-28")
+    (rev "A")
+    (company "HX-6 open miner"))
+  (lib_symbols)
+  (sheet
+    (at 25.4 30)
+    (size 60.96 20.32)
+    (fields_autoplaced)
+    (stroke
+      (width 0.1524)
+      (type solid))
+    (fill
+      (color 0 0 0 0))
+    (uuid "e6598bde-7281-5f58-a5e7-cf2c27d62f1e")
+    (property "Sheetname" "Power input and rails"
+      (at 25.4 29.3 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left bottom)))
+    (property "Sheetfile" "power.kicad_sch"
+      (at 25.4 50.9 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left top)))
+    (instances
+      (project "hx6"
+        (path "/4ba54009-1f29-56ee-8ded-631d38240141"
+          (page "2")))))
+  (sheet
+    (at 101.6 30)
+    (size 60.96 20.32)
+    (fields_autoplaced)
+    (stroke
+      (width 0.1524)
+      (type solid))
+    (fill
+      (color 0 0 0 0))
+    (uuid "bda70d74-3776-50a4-8d78-459daa31dd29")
+    (property "Sheetname" "Core VRM 4-phase"
+      (at 101.6 29.3 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left bottom)))
+    (property "Sheetfile" "vrm.kicad_sch"
+      (at 101.6 50.9 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left top)))
+    (instances
+      (project "hx6"
+        (path "/4ba54009-1f29-56ee-8ded-631d38240141"
+          (page "3")))))
+  (sheet
+    (at 177.8 30)
+    (size 60.96 20.32)
+    (fields_autoplaced)
+    (stroke
+      (width 0.1524)
+      (type solid))
+    (fill
+      (color 0 0 0 0))
+    (uuid "a1163704-f0fd-5540-8ad5-e95909c0d4a8")
+    (property "Sheetname" "ASIC chain 6x BM1370"
+      (at 177.8 29.3 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left bottom)))
+    (property "Sheetfile" "asic.kicad_sch"
+      (at 177.8 50.9 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left top)))
+    (instances
+      (project "hx6"
+        (path "/4ba54009-1f29-56ee-8ded-631d38240141"
+          (page "4")))))
+  (sheet
+    (at 254 30)
+    (size 60.96 20.32)
+    (fields_autoplaced)
+    (stroke
+      (width 0.1524)
+      (type solid))
+    (fill
+      (color 0 0 0 0))
+    (uuid "1288c173-0095-549a-bbd5-ece096b7523a")
+    (property "Sheetname" "Controller, display, fans"
+      (at 254 29.3 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left bottom)))
+    (property "Sheetfile" "mcu.kicad_sch"
+      (at 254 50.9 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left top)))
+    (instances
+      (project "hx6"
+        (path "/4ba54009-1f29-56ee-8ded-631d38240141"
+          (page "5")))))
+  (text "HX-6: 6x BM1370 Bitcoin miner. 12 V in (XT60, 15 A fuse). Core: TPS53647 4-phase + CSD95490Q5MC, ~0.9-1.35 V, up to ~120 A. Chain: U-shaped, 1.2 V UART via TXU0304. Controller: ESP32-S3-WROOM-1-N16R8. I2C (IO8/IO9): TPS53647 0x71, EMC2302-1 0x2E, TMP1075 0x48/0x49/0x4A, touch FT6336U 0x38."
+    (at 25.4 70 0)
+    (effects
+      (font
+        (size 1.8 1.8))
+      (justify left))
+    (uuid "30eb6058-3516-5f45-8bce-2d30f34d30f7"))
+  (sheet_instances
+    (path "/"
+      (page "1"))))
