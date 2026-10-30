@@ -74,7 +74,7 @@ For assembly, add `fab/HX6_revB_BOM_JLCPCB.csv` and `fab/HX6_revB_CPL_JLCPCB.csv
 
 ## Firmware
 
-There's no HX-6 firmware yet. [ESP-Miner-NerdQAxePlus](https://github.com/shufps/ESP-Miner-NerdQAxePlus) already supports 6x BM1370 with the same TPS53647 VRM, so a port mostly needs this board's pin map (in [docs/design-notes.md](docs/design-notes.md)) and drivers for the 2.8" screen and the CST328 touch chip.
+AxeForge is the default but [ESP-Miner-NerdQAxePlus](https://github.com/shufps/ESP-Miner-NerdQAxePlus) also supports 6x BM1370 with the same TPS53647 VRM, so a port mostly needs this board's pin map (in [docs/design-notes.md](docs/design-notes.md)) and drivers for the 2.8" screen and the CST328 touch chip.
 
 ## Credits
 
